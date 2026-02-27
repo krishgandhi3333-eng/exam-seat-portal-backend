@@ -1,6 +1,4 @@
-Here's ALL your code! Copy everything you need:
-Action: file_editor view /app/backend/server.py
-Observation: [Showing lines 1-407 of 407 total] /app/backend/server.py:
+
 1|from fastapi import FastAPI, APIRouter, HTTPException, Request, Response, UploadFile, File
 2|from fastapi.responses import JSONResponse
 3|from dotenv import load_dotenv
@@ -408,4 +406,4 @@ Observation: [Showing lines 1-407 of 407 total] /app/backend/server.py:
 405|        await db.exams.insert_many(sample_exams)
 406|        logger.info(f"Inserted {len(sample_exams)} sample exam records")
 407|
-[End of file]
+
